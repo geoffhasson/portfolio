@@ -366,7 +366,7 @@ Full-Width Styles
   background: #212121;
 }
 
-#title:hover {
+#title {
   -webkit-animation: onscreen 5s infinite; 
   color: red;
 }
