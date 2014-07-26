@@ -367,21 +367,17 @@ Full-Width Styles
 }
 
 #title {
-  -webkit-animation: onscreen 5s infinite; 
-  color: red;
+  -webkit-animation: slidein 5s; 
 }
 
-@-webkit-keyframes onscreen {
-  0%   { -moz-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -o-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0); }
-  100% { -moz-transform: translateX(200px);
-  -webkit-transform: translateX(200px);
-  -o-transform: translateX(200px);
-  -ms-transform: translateX(200px);
-  transform: translateX(200px); }
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 
 /*******************************************************************************
