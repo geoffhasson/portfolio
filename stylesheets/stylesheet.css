@@ -366,6 +366,13 @@ Full-Width Styles
   background: #212121;
 }
 
+#title:hover {
+  -moz-transform: translateX(200px);
+  -webkit-transform: translateX(200px);
+  -o-transform: translateX(200px);
+  -ms-transform: translateX(200px);
+  transform: translateX(200px);
+}
 
 
 /*******************************************************************************
