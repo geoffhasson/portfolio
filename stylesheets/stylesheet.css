@@ -372,6 +372,7 @@ Full-Width Styles
   -o-transform: translateX(200px);
   -ms-transform: translateX(200px);
   transform: translateX(200px);
+  color: red;
 }
 
 
