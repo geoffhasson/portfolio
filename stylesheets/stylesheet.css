@@ -367,8 +367,8 @@ Full-Width Styles
 }
 
 #project_title {
-  -webkit-animation: slidein 1s; 
-  -moz-animation: slidein 1s; 
+  -webkit-animation: slidein 250ms; 
+  -moz-animation: slidein 250ms; 
   transform: translateZ(0);
 }
 
