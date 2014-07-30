@@ -374,7 +374,7 @@ Full-Width Styles
 
 @-webkit-keyframes slidein {
   from {
-    transform: translateY(-100%)
+    transform: translateY(-150%)
   }
 
   to {
@@ -384,7 +384,7 @@ Full-Width Styles
 
 @-moz-keyframes slidein {
   from {
-    transform: translateY(-100%)
+    transform: translateY(-150%)
   }
 
   to {
