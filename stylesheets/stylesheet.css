@@ -374,23 +374,21 @@ Full-Width Styles
 
 @-webkit-keyframes slidein {
   from {
-    margin-top: -100%;
-    width: 100%;
+    transform: translateX(-200%)
   }
 
   to {
-    margin-top: 0%;
-    width: 100%;
+    transform: translateX(0)
   }
 }
 
 @-moz-keyframes slidein {
   from {
-    transform: translateY(-200%)
+    transform: translateX(-200%)
   }
 
   to {
-    transform: translateY(0)
+    transform: translateX(0)
   }
 }
 
