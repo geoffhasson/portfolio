@@ -368,7 +368,7 @@ Full-Width Styles
 
 #project_title {
   -webkit-animation: slidein 1s; 
-  moz-animation: slidein 1s; 
+  -moz-animation: slidein 1s; 
 }
 
 @-webkit-keyframes slidein {
