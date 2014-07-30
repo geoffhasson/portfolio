@@ -367,14 +367,14 @@ Full-Width Styles
 }
 
 #project_title {
-  -webkit-animation: slidein 1s; 
-  -moz-animation: slidein 1s; 
-  transform: translateZ(0px);
+  -webkit-animation: slidein bounce 1s; 
+  -moz-animation: slidein bounce 1s; 
+  transform: translateZ(0);
 }
 
 @-webkit-keyframes slidein {
   from {
-    transform: translateY(-200%)
+    transform: translateY(-100%)
   }
 
   to {
@@ -384,7 +384,7 @@ Full-Width Styles
 
 @-moz-keyframes slidein {
   from {
-    transform: translateY(-200%)
+    transform: translateY(-100%)
   }
 
   to {
