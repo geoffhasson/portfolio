@@ -368,11 +368,22 @@ Full-Width Styles
 
 #project_title {
   -webkit-animation: slidein 1s; 
-  animation: slidein 1s; 
+  moz-animation: slidein 1s; 
 }
 
-@-webkit-keyframes slidein,
-@keyframes slidein {
+@-webkit-keyframes slidein {
+  from {
+    margin-top: -100%;
+    width: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+@-moz-keyframes slidein {
   from {
     margin-top: -100%;
     width: 100%;
