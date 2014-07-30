@@ -386,13 +386,11 @@ Full-Width Styles
 
 @-moz-keyframes slidein {
   from {
-    margin-top: -100%;
-    width: 100%;
+    transform: translateY(-200%)
   }
 
   to {
-    margin-top: 0%;
-    width: 100%;
+    transform: translateY(0)
   }
 }
 
