@@ -372,7 +372,7 @@ Full-Width Styles
 }
 
 @-webkit-keyframes slidein,
-@-keyframes slidein {
+@keyframes slidein {
   from {
     margin-top: -100%;
     width: 100%;
